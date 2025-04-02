@@ -21,7 +21,7 @@ else:
     st.error("❌ AssemblyAI API key not found. Please provide it in your .env file.")
 
 # ChromaDB Path
-db_extract_path = os.path.join("C:/VASU_ALL_FILES/db-file-rag-project/chroma_db")
+db_extract_path = os.path.join("C:/VAISHU_ALL_FILES/db-file-rag-project/chroma_db")
 
 # ChromaDB Setup
 client = chromadb.PersistentClient(path=db_extract_path)
